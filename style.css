@@ -18,6 +18,12 @@ h1 {
     color: black;
     font-family: fantasy;
 }
+div {
+    text-align: center;
+}
+img {
+    object-fit: cover;
+}
 /*
 .topnav a {
     float: left;
