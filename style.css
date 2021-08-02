@@ -79,6 +79,16 @@ img {
     display: block;
     transition-duration: .3s;
   }
+  input {
+    border: 0;
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+  }
+  input[type="submit"] {
+    background: aquamarine;
+    color: black;
+  }
   @media only screen and (max-width: 900px) {
       .container {
           width: calc(50% - 6px);
