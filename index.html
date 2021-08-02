@@ -5,39 +5,82 @@
         <title>Natalie's Website</title>
     </head>
     <body>
-        <h1>Just Average Cooks</h1>
+        <h1>Hello, I'm <span id="name">Natalie Barba</span></h1>
+        <h2>Aspiring Software Engineer</h2>
+        <!--
         <div class="topnav">
-            <a class="active" href="#home">Home</a>
-            <a href="#breakfast">Breakfast</a>
-            <a href="#lunch">Lunch</a>
-            <a href="#dinner">Dinner</a>
-            <a href="#about">About Us</a>
+            <a class="active" href="#about">About Me</a>
+            <a href="#featured1">First Project</a>
+            <a href="#featured2">Second Project</a>
+            <a href="#featured3">Third Project</a>
+            <a href="#more">More</a>
         </div>
-        <div id="breakfast1">
-            <a id="breakfast">
+
+        <div id="aboutMe">
+            <a id = "about">
+                Live and work in the San Francisco Bay Area<br>
+                Current student at Flatiron School<br>
+
+                Languages:<br>
+                HTML<br>
+                CSS<br>
+                JavaScript<br>
+                Python<br>
+                C++<br>
+            </a>
+        </div> 
+        <div id="first">
+            <a id="featured1">
                 <h3>Breakfast Recipes</h3>
                 <img src="./Breakfast.jpg" alt="Vegan breakfast">
             </a>
         </div>
-        <div id="lunch1">
-            <a id="lunch">
+        <div id="second">
+            <a id="featured2">
                 <h3>Lunch Recipes</h3>
                 <img src="./Lunch.jpg" alt="Vegan tacos">
             </a>
         </div>
-        <div id="dinner1">
-            <a id="dinner">
+        <div id="third">
+            <a id="featured3">
                 <h3>Dinner Recipes</h3>
                 <img src="./Dinner.jpg" alt="Vegan pasta">
             </a>
         </div>
-        <div id="aboutUs">
-            <a id = "about">
-                Just a couple of normal gals, trying to cook more at home<br>
-                Sharing our attempts at plant-based recipes <br>
-                We make the best of the skills and ingredients we have on hand<br>
-                If we can cook it, so can you!
-            </a>
+        <div class="first">
+            <p>San Francisco<br>
+            Currently living on the beautiful island of Alameda, only a short ferry ride away from downtown San Francisco.</p>s
+        </div>
+        <div class="second">
+            <p>Flatiron School<br>
+            Graduting November 2021</p>
+        </div>
+        <div class="third">
+            <p>UC Berkeley<br>
+            <small>Degree in Spanish Literature</small></p>
+        </div>
+        -->
+        <div class="container-all">
+            <div class="container">
+                <img id="San Francisco" src="./San Francisco.jpeg" class="image">
+                <span class="title">San Francisco Bay Area</span>
+                <span class="text">A short ferry ride away from downtown</span>
+            </div>
+            <div class="container">
+                <img id="Flatiron" src="./Flatiron.jpeg" class="image">
+                <span class="title">Flatiron School</span>
+                <span class="text">Graduating Nov 2021</span>
+            </div>
+            <div class="container">
+                <img id="Cal" src="./ComputerScience.jpg" class="image">
+                <span class="title">Computer Science Courses</span>
+                <span class="text">Including: HTML, CSS, JavaScript, Python, C++, Java, MySQL</span>
+            </div>
+            <div class="container">
+                <img id="Hike" src="./Cal.jpeg" class="image">
+                <span class="title">UC Berkeley</span>
+                <span class="text">Class of 2014, BA in Spanish</span>
+            </div>
         </div>
         <script src="./script.js"></script>
     </body>
